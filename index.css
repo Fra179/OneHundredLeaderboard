@@ -1,0 +1,133 @@
+body{
+    background-color: #e3e6e8;
+    margin: 0;
+    margin-top: 8px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.page {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.title-container {
+    height: 70px;
+    border: 5px solid red;
+    background-color: #222222;
+    margin: auto;
+    text-align: center;
+}
+
+.title-container h1 {
+    color: red;
+    margin: 0;
+    padding: 16px;
+}
+
+#classifica {
+    background-color: white;
+    padding: 10px;
+}
+
+#classifica table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+}
+
+#classifica table {
+    border-collapse: collapse;
+}
+
+table .pos {
+    text-align: center;
+    font-weight: bold;
+    min-width: 70px;
+}
+
+table .name {
+    text-align: center;
+    min-width: 250px;
+}
+
+table .points {
+    text-align: center;
+    min-width: 50px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.divider {
+    height: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 8px;
+}
+
+.jolly {
+    background-color: yellow;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Blinker';
+    font-size: 21px;
+    margin: 10px 0;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    color: white;
+}
+
+footer * {
+    color: white;
+    text-decoration: none;
+}
+
+footer h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 28px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.problem-points {
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 530px) {
+    footer h3 {
+        font-size: 3.5vw;
+    }
+}
